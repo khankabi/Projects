@@ -14,6 +14,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
   <!-- stylesheets -->
   <link rel="stylesheet" href=css/style.css>
+  <style>
+    .icon:hover {
+      opacity: 0.6;
+    }
+  </style>
   <title>Best Dental Care Center in Nashik | DCMS</title>
 </head>
 
@@ -231,39 +236,39 @@
       <div class="row">
         <!-- 1 -->
         <div class="col-lg-4 col-md-6 col-12 ">
-          <img src="images/SLIDER3.jpg" class="img-fluid pb-3" alt="Gallery">
+          <img src="images/gallery/MODIFIED/g0.jpEg" class="img-fluid pb-3" alt="Gallery">
         </div>
         <!-- 2 -->
         <div class="col-lg-4 col-md-6 col-12">
-          <img src="images/SLIDER3.jpg" class="img-fluid pb-4" alt="Gallery">
+          <img src="images/gallery/g1.jpg" class="img-fluid pb-4" alt="Gallery">
         </div>
         <!--3 -->
         <div class="col-lg-4 col-md-6 col-12">
-          <img src="images/SLIDER3.jpg" class="img-fluid pb-4" alt="Gallery">
+          <img src="images/gallery/g3.jpg" class="img-fluid pb-4" alt="Gallery">
         </div>
         <!--4  -->
         <div class="col-lg-4 col-md-6 col-12">
-          <img src="images/SLIDER3.jpg" class="img-fluid pb-4" alt="Gallery">
+          <img src="images/gallery/g6.jpg" class="img-fluid pb-4" alt="Gallery">
         </div>
         <!-- 5 -->
         <div class="col-lg-4 col-md-6 col-12">
-          <img src="images/SLIDER3.jpg" class="img-fluid pb-4" alt="Gallery">
+          <img src="images/gallery/g4.jpg" class="img-fluid pb-4" alt="Gallery">
         </div>
         <!-- 6 -->
         <div class="col-lg-4 col-md-6 col-12">
-          <img src="images/SLIDER3.jpg" class="img-fluid pb-4" alt="Gallery">
+          <img src="images/gallery/MODIFIED/g8.Jpg" class="img-fluid pb-4" alt="Gallery">
         </div>
         <!-- 7 -->
         <div class="col-lg-4 col-md-6 col-12">
-          <img src="images/SLIDER3.jpg" class="img-fluid pb-4" alt="Gallery">
+          <img src="images/gallery/MODIFIED/g9.jpg" class="img-fluid pb-4" alt="Gallery">
         </div>
         <!-- 8 -->
         <div class="col-lg-4 col-md-6 col-12">
-          <img src="images/SLIDER3.jpg" class="img-fluid pb-4" alt="Gallery">
+          <img src="images/gallery/MODIFIED/g10.jpg" class="img-fluid pb-4" alt="Gallery">
         </div>
         <!-- 9 -->
         <div class="col-lg-4 col-md-6 col-12">
-          <img src="images/SLIDER3.jpg" class="img-fluid pb-4" alt="Gallery">
+          <img src="images/gallery/MODIFIED/G13.jpg" class="img-fluid pb-4" alt="Gallery">
         </div>
       </div>
     </div>
@@ -272,7 +277,7 @@
 
 
   <!-- login panel -->
-  <section id="login" class="container-fluid  text-center py-5 pb-5">
+  <!-- <section id="login" class="container-fluid  text-center py-5 pb-5">
     <div class="container-fluid">
       <div class="text-center">
         <h2 class="text-center pr-5 pb-5" style="font-family: 'Ubuntu', sans-serif;">Login</h2>
@@ -325,7 +330,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
 
 
@@ -347,56 +352,105 @@
             are dependent on him. He is not an interruption in our work. He is the purpose of it. He is not an outsider
             in our business. He is part of it. We are not doing him a favor by serving him. He is doing us a favor by
             giving us an opportunity to do so.
-            <h5 class="text-right my-0"> By Mahatma Gandhi</h3>
+          <h5 class="text-right my-0"> By Mahatma Gandhiji</h3>
             </p>
             <a href="about.php" class="btn btn-info"> wanna know more ?</a>
-      </div>
+        </div>
   </section>
 
   <!-- contact us page -->
-  <hr>
-  <marquee class = "text-large">  Monday to Saturday 10:30AM to 2PM || 5:30PM to 8:30PM</marquee>
-  <hr>
+
   <section class="my-5 pd-5" id="contactus">
     <div class="py-5">
       <h1 class="text-center" style="font-family: 'Ubuntu', sans-serif;">Contact us</h1>
     </div>
-    <div class="w-50 m-auto">
-      <form action="userinfo.php" method="post">
+    <div class="d-flex justify-content-around pl-5 pr-5">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.3967920776004!2d73.78621437522882!3d19.991854631410504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddeb039f714289%3A0x375a7242f955c5bc!2sYews%20National%20High%20School%20and%20College%20for%20Boys%20and%20Girls!5e0!3m2!1sen!2sin!4v1694597289756!5m2!1sen!2sin"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-        <!-- username -->
-        <div class="form-group">
-          <div class="input-group-prepend">
-            <span class="input-group-text" id="basic-addon1"><label for="username">Name</label></span>
-            <input type="text" name="username" id="username" placeholder="Sonu shaikh" autocomplete="off"
-              class="form-control">
+      <div class="w-50 m-auto">
+        <form action="userinfo.php" method="post">
+
+          <!-- username -->
+          <div class="form-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1"><label for="username">Name</label></span>
+              <input type="text" name="username" id="username" placeholder="Sonu shaikh" autocomplete="off"
+                class="form-control">
+            </div>
           </div>
-        </div>
-        <!-- emailaddress -->
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="text" name="email" id="email" placeholder="Sonushaikh@gmail.com" autocomplete="off"
-            class="form-control">
-        </div>
-        <!-- mobile -->
-        <div class="form-group">
-          <div class="input-group-prepend">
-            <span class="input-group-text" id="basic-addon1"><label for="username">+91</label></span>
-            <input type="text" name="mobile" id="mobile" placeholder="1234567890" autocomplete="off"
-              class="form-control">
+          <!-- emailaddress -->
+          <div class="form-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1"><label for="username">Email</label></span>
+              <input type="text" name="email" id="email" placeholder="Sonushaikh@gmail.com" autocomplete="off"
+                class="form-control">
+            </div>
           </div>
-        </div>
-        <!-- comment -->
-        <div class="form-group">
-          <label for="comment">Comment</label><textarea class="form-control" name="comment" id="comment"></textarea>
-        </div>
-        <button type="submit" class="btn btn-info">Submit</button>
-      </form>
+          <!-- mobile -->
+          <div class="form-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1"><label for="username">+91</label></span>
+              <input type="text" name="mobile" id="mobile" placeholder="1234567890" autocomplete="off"
+                class="form-control">
+            </div>
+          </div>
+          <!-- comment -->
+          <div class="form-group">
+            <label for="comment">Comment</label><textarea class="form-control" name="comment" id="comment"
+              placeholder="give your valueable feedback"></textarea>
+          </div>
+          <button type="submit" class="btn btn-info">Submit</button>
+        </form>
+      </div>
     </div>
   </section>
 
-  <footer style="font-family: 'Ubuntu', sans-serif;">
-    <h6 class="pb-0 mb-0 text-light bg-dark text-center">Shaikh sonu and Shah abuzer</h6>
+
+  <footer class="pb-0 mb-0 text-light bg-dark text-center" style="font-family: 'Ubuntu', sans-serif;">
+    <!-- <h3>Some important things about us that you should know</h3> -->
+    <hr>
+    <marquee class="text-large" style="font-family:ubuntu"> Monday to Saturday 10:30AM to 2PM || 5:30PM to 8:30PM
+    </marquee>
+    <hr>
+    <div class="row">
+      <div class="col">
+        <ul class="text-left pl-5  list-inline" style="color:#94a0ad">
+          <li>Dr. Vasundhara’s Smile Avenue Dental
+            Clinic 1: A-725, Sector 19, Noida-201301</li>
+          <br>
+          <li>Landline: 0120-4327657,
+            +91-9810898881</li>
+          <br>
+          <li>Clinic 2: A-82, Sector 92, Noida-201301.</li>
+          <br>
+          <li>Mobile : +91-9810898881,
+            +91-9582102100</li>
+          <br>
+          <li>Email : vasundhara_18_arora@yahoo.co.in</li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h6>Connect With Us</h6>
+        <ul class="d-flex justify-content-center ml-5 mr-5">
+          <li class="list-inline icon d-inline-block"><a href="https://www.facebook.com/profile.php?id=100065543735018"
+              target="_blank" rel="noopener noreferrer"><img src="images\gallery\icons/\icons8-facebook-48.png"
+                alt=""></a></li>
+          <li class="list-inline icon d-inline-block"><a href="https://www.linkedin.com/in/samir-shaikh-aa3447225/"
+              target="_blank" rel="noopener noreferrer"><img src="images\gallery\icons/\icons8-linkedin-48.png"
+                alt=""></a></li>
+          <li class="list-inline icon d-inline-block"><a href="https://www.instagram.com/ii_am_shaikh_ii/"
+              target="_blank" rel="noopener noreferrer"><img src="images\gallery\icons/\icons8-instagram-48.png"
+                alt=""></a></li>
+        </ul>
+      </div>
+    </div>
+    &copy; Copyright 2023, ii_am_shaikh_ii Corporation
+    </div>
+
   </footer>
 
 

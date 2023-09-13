@@ -16,8 +16,13 @@
     height: 285px !important;
   }
   .text-large{
-    font-size: 22px !important;
-}
+    font-size: 10px !important;
+    font-family: Ubuntu, sans-serif !important;
+  }
+  .icon{
+    border: 2px solid black;
+  }
+
   /* .login-card{
     margin:auto !important;
     margin-top: auto !important;
