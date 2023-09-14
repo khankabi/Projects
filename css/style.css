@@ -20,10 +20,16 @@
     height: 285px !important;
   }
   .text-large{
-    font-size: 10px !important;
+    font-size: 15px !important;
     font-family: Ubuntu, sans-serif !important;
   }
-
+  .brd{
+    border:2px solid red;
+    /* background-image: url("images/gallery/doctos/deepali_1.jpg"); */
+  }
+.text-center{
+  text-align: center;
+}
   /* .login-card{
     margin:auto !important;
     margin-top: auto !important;

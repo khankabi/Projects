@@ -23,7 +23,7 @@
 
 <body>
 
-<!-- nav bar of about us -->
+    <!-- nav bar of about us -->
     <!-- <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" style="background-color: #e3f2fd;">
         <a class="navbar-brand my-0 py-0" style="font-family: 'Ubuntu', sans-serif;" href="homepage.php">
             <img src="images/LOGO.webp" width="30" height="30" class="d-inline-block align-top" alt="here is my logo">
@@ -70,9 +70,9 @@
             <button class="btn btn-info my-2 my-sm-0" type="submit">Appoinment</button>
         </div>
     </nav> -->
-     <?php
+    <?php
     include "navbar.php";
-    ?> 
+    ?>
     <div class="jumbotron jumbotron-fluid">
         <div class="container ml-5 my-5">
             <h1 class="display-4 ">LIVE WITH HOPE</h1>
@@ -93,7 +93,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-12">
-                    <img src="images/SLIDER1.jpg" alt="image" class="img-fluid aboutimg">
+                    <img src="images/gallery/aboutus.png" alt="image" class="img-fluid aboutimg">
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
                     <h2 class="display-4"> we are here for you..</h2>
@@ -119,6 +119,65 @@
                         <!-- <a href="about.php" class="btn btn-info"> wanna know more ?</a> -->
                 </div>
     </section>
+
+    <div class="py-5">
+        <h1 class="text-center" style="font-family: 'Ubuntu', sans-serif;">wanna know about our dentists</h1>
+    </div>
+
+    <section>
+        <br><br>
+        <div class="container mt-3 ">
+            <div class="row">
+                <div class="col ">
+                    <img src="images/gallery/doctos/deepali_1.jpg" class="img-fluid w-50 p-3 " alt="">
+                </div>
+                <div class="col-6">
+                    <h1>Dr. Deepali Bajpai Falleiro</h1>
+                    <p> Dr. Deepali is a sincere and a passionate dentist who believes in service with a smile,for a
+                        smile! She completed her graduation (BDS) in 2009 and her post graduation (MDS) in 2014 from
+                        Army College Of Dental Sciences,Secunderabad. <br>
+                        She is a specialist in the field of Periodontology & Oral Implantology and is well trained in
+                        Laser dentistry (ICLE,Indianapolis IN).<br>
+                        After completing her MDS she has worked with Dr.Dilip Bandodkar(MDS Endodontics) in Goa
+                        (2014-2015) and Dr.Milind Darda (MDS Orthodontics) (2016-2017)in Pune gaining sufficient
+                        clinical expertise in various dental procedures.<br>
+                        She has presented papers at various conferences across the country and also has publications in
+                        reputed journals.She has been attending various workshops and CDE programmes to keep herself
+                        abreast with all the latest techniques and advancements in the field of dentistry.</p>
+                </div>
+            </div>
+    </section>
+
+
+    <section>
+        <br><br>
+        <div class="container mt-3 ">
+            <div class="row">
+                <div class="col ">
+                    <img src="images/gallery/doctos/doctor2.jpg" class="img-fluid w-50 p-3 " alt="">
+                </div>
+                <div class="col-6">
+                    <h1>Dr. Aayushi Falleiro</h1>
+                    <p>Dr. Aayushi is a Head Dentist at City Dental Clinic, PCMC, Pune. She makes sure to understand the
+                        patients’ problems during the consultation and suggests only the best dental treatment possible
+                        for the case. She makes sure that the treatment is gentle on the body and pocket, to the extent
+                        possible.<br>
+                        She is an experienced dentist in Pimpri Chinchwad and treated more than 5000 patients so far.
+                        She makes sure that patients go out smiling & leaving their dental pains in City Dental Clinic.
+                        All major dental treatments are done at City Dental Clinic, which makes it truly a
+                        Multi-Speciality Dental clinic in PCMC.<br>
+                        We proudly serve families, including kids, teens,
+                        adults, and seniors, with a wide range of dental treatment services under one roof.
+                        You can expect transparency, honesty, integrity, and access to the best treatments when you
+                        visit our Dental Clinic. The patient’s reviews also tell the same story.</p>
+                </div>
+            </div>
+    </section>
+
+    <?php
+    include "footer.php"
+        ?>
 </body>
+
 
 </html>

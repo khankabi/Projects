@@ -340,7 +340,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-6 col-md-6 col-12">
-          <img src="images/SLIDER1.jpg" alt="image" class="img-fluid aboutimg">
+          <img src="images/gallery/aboutus.png" alt="image" class="img-fluid aboutimg">
         </div>
         <div class="col-lg-6 col-md-6 col-12">
           <h2 class="display-4" style="font-family: 'Ubuntu', sans-serif;"> we are here for you..</h2>
@@ -361,6 +361,7 @@
       <h1 class="text-center" style="font-family: 'Ubuntu', sans-serif;">Contact us</h1>
     </div>
     <div class="d-flex justify-content-around pl-5 pr-5">
+      
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.3967920776004!2d73.78621437522882!3d19.991854631410504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddeb039f714289%3A0x375a7242f955c5bc!2sYews%20National%20High%20School%20and%20College%20for%20Boys%20and%20Girls!5e0!3m2!1sen!2sin!4v1694597289756!5m2!1sen!2sin"
         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -395,7 +396,7 @@
           </div>
           <!-- comment -->
           <div class="form-group">
-            <label for="comment">Comment</label><textarea class="form-control" name="comment" id="comment"
+            <label for="comment">Describe Your Problem</label><textarea class="form-control" name="comment" id="comment"
               placeholder="give your valueable feedback"></textarea>
           </div>
           <button type="submit" class="btn btn-info">Submit</button>
@@ -405,49 +406,7 @@
   </section>
 
 
-  <footer class="pb-0 mb-0 text-light bg-dark text-center" style="font-family: 'Ubuntu', sans-serif;">
-    <!-- <h3>Some important things about us that you should know</h3> -->
-    <hr>
-    <marquee class="text-large" style="font-family:ubuntu"> Monday to Saturday 10:30AM to 2PM || 5:30PM to 8:30PM
-    </marquee>
-    <hr>
-    <div class="row">
-      <div class="col">
-        <ul class="text-left pl-5  list-inline" style="color:#94a0ad">
-          <li>Dr. Vasundhara’s Smile Avenue Dental
-            Clinic 1: A-725, Sector 19, Noida-201301</li>
-          <br>
-          <li>Landline: 0120-4327657,
-            +91-9810898881</li>
-          <br>
-          <li>Clinic 2: A-82, Sector 92, Noida-201301.</li>
-          <br>
-          <li>Mobile : +91-9810898881,
-            +91-9582102100</li>
-          <br>
-          <li>Email : vasundhara_18_arora@yahoo.co.in</li>
-        </ul>
-      </div>
-
-      <div  id="reachus"class="col">
-        <h6>Connect With Us</h6>
-        <ul class="d-flex justify-content-center">
-          <li class="list-inline icon d-inline-block"><a href="https://www.facebook.com/profile.php?id=100065543735018"
-              target="_blank" rel="noopener noreferrer"><img src="images\gallery\icons/\icons8-facebook-48.png"
-                alt=""></a></li>
-          <li class="list-inline icon d-inline-block"><a href="https://www.linkedin.com/in/samir-shaikh-aa3447225/"
-              target="_blank" rel="noopener noreferrer"><img src="images\gallery\icons/\icons8-linkedin-48.png"
-                alt=""></a></li>
-          <li class="list-inline icon d-inline-block"><a href="https://www.instagram.com/ii_am_shaikh_ii/"
-              target="_blank" rel="noopener noreferrer"><img src="images\gallery\icons/\icons8-instagram-48.png"
-                alt=""></a></li>
-        </ul>
-      </div>
-    </div>
-    &copy; Copyright 2023, ii_am_shaikh_ii Corporation
-    </div>
-
-  </footer>
+  
 
 
 
@@ -458,7 +417,9 @@
 
 
 
-
+<?php
+include "footer.php"
+?>
 
 
   <!-- Optional JavaScript -->
