@@ -76,8 +76,8 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container ml-5 my-5">
             <h1 class="display-4 ">LIVE WITH HOPE</h1>
-            <p class="lead">AS SOON AS I LIVE , THERE ARE INFINITE POSSIBILITIES <BR>
-                - by Monkey D. Luffy</p>
+            <pre class="lead">AS SOON AS I LIVE , THERE ARE INFINITE POSSIBILITIES 
+                                            - by Monkey D. Luffy</pre>
         </div>
     </div>
 

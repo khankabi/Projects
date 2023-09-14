@@ -9,27 +9,11 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse " id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.php">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.php">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.php">Gallery</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="index.php">Login</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.php">About us </a>
-        </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="#contactus">Contact us</a>
-        </li> -->
+      <ul class="navbar-nav ml-auto">     
+   
       </ul>
-      <a href="#contactus" class="btn btn-info my-2 ml-3 pl-3 my-sm-0">Appointment</a>
+      <a href="index.php" class="btn btn-info my-2 ml-3 pl-3 my-sm-0">BACK TO HOME</a>
     </div>
   </nav>
+
+  
