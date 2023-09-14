@@ -34,5 +34,5 @@
     $query="INSERT INTO `userinfo`(`username`, `email`, `mobile`, `comment`) VALUES ('$username','$email','$mobile','$comment')";
     echo $query;
     mysqli_query($conn,$query);
-    header('location:homepage.php');
+    header('location:index.php');
 ?>
