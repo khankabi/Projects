@@ -209,8 +209,6 @@
     </div>
     </div>
   </section>
-
-
   <!-- Gallery part -->
   <section class="my-5 pd-5" id="gallery">
     <div class="py-5">
