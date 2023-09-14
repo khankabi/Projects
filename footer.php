@@ -14,11 +14,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <!-- stylesheets -->
     <link rel="stylesheet" href=css/style.css>
-    <style>
-        .icon:hover {
-            opacity: 0.6;
-        }
-    </style>
     <title>Best Dental Care Center in Nashik | DCMS</title>
 </head>
 
@@ -37,21 +32,21 @@
                     alt="here is my logo">
                 <span>
                     <h3>SmileSculptors</h3>
+                    <p>YOUR SMILE IS IMPORTANT FOR US</p>
                 </span>
             </div>
             <div class="col-md-auto">
                 <h6 style="text-align:left" class="pl-5">Other Details</h6>
                 <ul class="text-left pl-4  list-inline" style="color:#94a0ad">
-                    <li>Dr. Vasundhara’s Smile Avenue Dental
-                        Clinic 1: A-725, Sector 19, Noida-201301</li>
+                    <li>Dr. Sonu Shaikh’s SmileSculptors Dental Clinic Rajiv nagar,Nashik-42209 </li>
                     <!-- <br> -->
-                    <li>Landline: 0120-4327646,
-                        +91-9810895681</li>
+                    <li>Landline: 0120-12345679,
+                        +91-989898979</li>
                     <!-- <br> -->
-                    <li>Clinic 2: A-82, Sector 92, Noida-201301.</li>
+                    <li>Clinic 2: YEWS, Sarda circle, Nashik-42209.</li>
                     <!-- <br> -->
-                    <li>Mobile : +91-9810898881,
-                        +91-9582102100</li>
+                    <li>Mobile : +91-989898979,
+                        +91-989898979</li>
                     <!-- <br> -->
                     <li>Email : shaikhsonu23626@gmail.com</li>
                 </ul>
@@ -62,32 +57,30 @@
                 <ul class="d-flex justify-content-center">
                     <li class="list-inline icon d-inline-block"><a
                             href="https://www.facebook.com/profile.php?id=100065543735018" target="_blank"
-                            rel="noopener noreferrer"><img src="images\gallery\icons/\icons8-facebook-48.png"
-                                alt=""></a></li>
+                            rel="noopener noreferrer"><img src="images\gallery\icons\icons8-facebook-48.png" alt=""></a>
+                    </li>
                     <li class="list-inline icon d-inline-block"><a
                             href="https://www.linkedin.com/in/samir-shaikh-aa3447225/" target="_blank"
-                            rel="noopener noreferrer"><img src="images\gallery\icons/\icons8-linkedin-48.png"
-                                alt=""></a></li>
-                    <li class="list-inline icon d-inline-block"><a href="https://www.instagram.com/ii_am_shaikh_ii/"
+                            rel="noopener noreferrer"><img src="images\gallery\icons\icons8-linkedin-48.png" alt=""></a>
+                    </li>
+                    <li class="list-inline icon d-inline-block"><a href="https://www.instagram.com/geeky_insights/"
                             target="_blank" rel="noopener noreferrer"><img
-                                src="images\gallery\icons/\icons8-instagram-48.png" alt=""></a></li>
+                                src="images\gallery\icons/icons8-instagram-48.png" alt=""></a></li>
+                    <li class="list-inline icon d-inline-block"><a href="https://www.greedydroid.com/" target="_blank"
+                            rel="noopener noreferrer"><img src="images\gallery\icons/icons8-website-48.png" alt=""></a>
+                    </li>
                 </ul>
             </div>
+
+
         </div>
-        <p class= "mt-5 m-0">
-            &copy; Copyright 2023, ii_am_shaikh_ii Corporation</p>
+        <div class="d-flex justify-content-around container">
+            <p class="mt-5 m-0 ">
+                &copy; Copyright 2023, ii_am_shaikh_ii Corporation</p>
+            <button onclick="myFunction()"><img src="images\gallery\icons/icons8-night-mode-48.png" alt=""></button>
+        </div>
         </div>
     </footer>
-
-
-
-
-
-
-
-
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -100,36 +93,11 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 </body>
-
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-</body>
+<script>
+    function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+    }
+</script>
 
 </html>

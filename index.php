@@ -12,6 +12,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <!-- icon -->
+  <link rel="shortcut icon" href="images/LOGO.webp" type="image/x-icon">
+
   <!-- stylesheets -->
   <link rel="stylesheet" href=css/style.css>
   <style>
@@ -26,7 +29,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" style="background-color: #e3f2fd;">
     <a class="navbar-brand my-0 py-0" style="font-family: 'Ubuntu', sans-serif;" href="index.php">
-      <img src="images/LOGO.webp" width="50" height="38" class="d-inline-block align-top" alt="here is my logo">
+      <img src="images/LOGO.webp" width="45" height="38" class="d-inline-block align-top" alt="here is my logo">
     </a>
     <span>
       <h3>SmileSculptors</h3>
@@ -38,7 +41,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
+        <li class="nav-item ">
           <a class="nav-link" href="index.php">Home</a>
         </li>
         <li class="nav-item">
@@ -70,18 +73,15 @@
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner ">
-      <div class="carousel-item">
-        <img class="d-block w-100" src="images/SLIDER1.jpg" alt="Third slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="images/SLIDER2.jpg" alt="Second slide">
-      </div>
       <div class="carousel-item active" data-animation="animated bounceInLeft">
-        <img class="d-block w-100" src="images/SLIDER5.jpg" alt="First slide">
+        <img class="d-block w-100" src="images/slider/homepage.png" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/slider/second.png" alt="second slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
       <span class="sr-only">Previous</span>
     </a>
     <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
@@ -89,28 +89,15 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-
-
-
-
-
-
-
-
-
-
-
   <!-- cards -->
-
   <section class="my-5 pd-5" id="services">
     <div class="py-5">
       <h1 class="text-center" style="font-family: 'Ubuntu', sans-serif;">Our services</h1>
     </div>
     <div class="container-fluid">
       <div class="row">
-
         <!-- first card -->
-        <div class=" col-lg-4 col-md-6 col-12 pb-5">
+        <div class=" img col-lg-4 col-md-6 col-12 pb-5">
           <div class="card border-info " style="width:100%">
             <img class="card-img-top" src="images/card1.jpg" alt="Card image cap">
             <div class="card-body text-info py-3 text-shadow">
@@ -127,8 +114,9 @@
             </div>
           </div>
         </div>
+
         <!-- second card -->
-        <div class=" col-lg-4 col-md-6 col-12">
+        <div class=" img col-lg-4 col-md-6 col-12">
           <div class="card border-info" style="width:100%">
             <img class="card-img-top" src="images/card2.jpg" alt="Card image cap">
             <div class="card-body text-info py-3 text-shadow">
@@ -146,7 +134,7 @@
           </div>
         </div>
         <!-- third card -->
-        <div class=" col-lg-4 col-md-6 col-12">
+        <div class="img  col-lg-4 col-md-6 col-12">
           <div class="card border-info" style="width:100%">
             <img class="card-img-top" src="images/card3.jpg" alt="Card image cap">
             <div class="card-body text-info py-3 text-shadow">
@@ -165,7 +153,7 @@
         </div>
 
         <!-- fourth card -->
-        <div class=" col-lg-4 col-md-6 col-12">
+        <div class="img col-lg-4 col-md-6 col-12">
           <div class="card border-info" style="width:100%">
             <img class="card-img-top" src="images/card4.jpg" alt="Card image cap">
             <div class="card-body text-info py-3 text-shadow">
@@ -182,7 +170,7 @@
           </div>
         </div>
         <!-- five card -->
-        <div class=" col-lg-4 col-md-6 col-12">
+        <div class="img col-lg-4 col-md-6 col-12">
           <div class="card border-info" style="width:100%">
             <img class="card-img-top" src="images/card5.jpg" alt="Card image cap">
             <div class="card-body text-info py-3 text-shadow">
@@ -200,7 +188,7 @@
           </div>
         </div>
         <!-- sixth card -->
-        <div class=" col-lg-4 col-md-6 col-12">
+        <div class=" img col-lg-4 col-md-6 col-12">
           <div class="card border-info" style="width:100%">
             <img class="card-img-top" src="images/card6.jpg" alt="Card image cap">
             <div class="card-body text-info py-3 text-shadow">
@@ -232,39 +220,39 @@
       <div class="row">
         <!-- 1 -->
         <div class="col-lg-4 col-md-6 col-12 ">
-          <img src="images/gallery/MODIFIED/g0.jpEg" class="img-fluid pb-3" alt="Gallery">
+          <img src="images/gallery/MODIFIED/g0.jpEg" class="img-fluid pb-3  img" alt="Gallery">
         </div>
         <!-- 2 -->
         <div class="col-lg-4 col-md-6 col-12">
-          <img src="images/gallery/g1.jpg" class="img-fluid pb-4" alt="Gallery">
+          <img src="images/gallery/g1.jpg" class="img-fluid pb-4 img" alt="Gallery">
         </div>
         <!--3 -->
         <div class="col-lg-4 col-md-6 col-12">
-          <img src="images/gallery/g3.jpg" class="img-fluid pb-4" alt="Gallery">
+          <img src="images/gallery/g3.jpg" class="img-fluid pb-4 img" alt="Gallery">
         </div>
         <!--4  -->
         <div class="col-lg-4 col-md-6 col-12">
-          <img src="images/gallery/g6.jpg" class="img-fluid pb-4" alt="Gallery">
+          <img src="images/gallery/g6.jpg" class="img-fluid pb-4 img" alt="Gallery">
         </div>
         <!-- 5 -->
         <div class="col-lg-4 col-md-6 col-12">
-          <img src="images/gallery/g4.jpg" class="img-fluid pb-4" alt="Gallery">
+          <img src="images/gallery/g4.jpg" class="img-fluid pb-4 img" alt="Gallery">
         </div>
         <!-- 6 -->
         <div class="col-lg-4 col-md-6 col-12">
-          <img src="images/gallery/MODIFIED/g8.Jpg" class="img-fluid pb-4" alt="Gallery">
+          <img src="images/gallery/MODIFIED/g8.Jpg" class="img-fluid pb-4 img" alt="Gallery">
         </div>
         <!-- 7 -->
         <div class="col-lg-4 col-md-6 col-12">
-          <img src="images/gallery/MODIFIED/g9.jpg" class="img-fluid pb-4" alt="Gallery">
+          <img src="images/gallery/MODIFIED/g9.jpg" class="img-fluid pb-4 img" alt="Gallery">
         </div>
         <!-- 8 -->
         <div class="col-lg-4 col-md-6 col-12">
-          <img src="images/gallery/MODIFIED/g10.jpg" class="img-fluid pb-4" alt="Gallery">
+          <img src="images/gallery/MODIFIED/g10.jpg" class="img-fluid pb-4 img" alt="Gallery">
         </div>
         <!-- 9 -->
         <div class="col-lg-4 col-md-6 col-12">
-          <img src="images/gallery/MODIFIED/G13.jpg" class="img-fluid pb-4" alt="Gallery">
+          <img src="images/gallery/MODIFIED/G13.jpg" class="img-fluid pb-4 img" alt="Gallery">
         </div>
       </div>
     </div>
@@ -361,7 +349,7 @@
       <h1 class="text-center" style="font-family: 'Ubuntu', sans-serif;">Contact us</h1>
     </div>
     <div class="d-flex justify-content-around pl-5 pr-5">
-      
+
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.3967920776004!2d73.78621437522882!3d19.991854631410504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddeb039f714289%3A0x375a7242f955c5bc!2sYews%20National%20High%20School%20and%20College%20for%20Boys%20and%20Girls!5e0!3m2!1sen!2sin!4v1694597289756!5m2!1sen!2sin"
         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -374,30 +362,27 @@
           <div class="form-group">
             <div class="input-group-prepend">
               <span class="input-group-text" id="basic-addon1"><label for="username">Name</label></span>
-              <input type="text" name="username" id="username" placeholder="Sonu shaikh" autocomplete="off"
-                class="form-control">
+              <input type="text" name="username" id="username" autocomplete="off" class="form-control">
             </div>
           </div>
           <!-- emailaddress -->
           <div class="form-group">
             <div class="input-group-prepend">
-              <span class="input-group-text" id="basic-addon1"><label for="username">Email</label></span>
-              <input type="text" name="email" id="email" placeholder="Sonushaikh@gmail.com" autocomplete="off"
-                class="form-control">
+              <span class="input-group-text" id="basic-addon1"><label for="email">Email</label></span>
+              <input type="text" name="email" id="email" autocomplete="off" class="form-control">
             </div>
           </div>
           <!-- mobile -->
           <div class="form-group">
             <div class="input-group-prepend">
-              <span class="input-group-text" id="basic-addon1"><label for="username">+91</label></span>
-              <input type="text" name="mobile" id="mobile" placeholder="1234567890" autocomplete="off"
-                class="form-control">
+              <span class="input-group-text" id="basic-addon1"><label for="mobile">+91</label></span>
+              <input type="text" name="mobile" id="mobile" autocomplete="off" class="form-control">
             </div>
           </div>
           <!-- comment -->
           <div class="form-group">
-            <label for="comment">Describe Your Problem</label><textarea class="form-control" name="comment" id="comment"
-              placeholder="give your valueable feedback"></textarea>
+            <label for="comment">Describe Your Problem</label><textarea class="form-control" name="comment"
+              id="comment"></textarea>
           </div>
           <button type="submit" class="btn btn-info">Submit</button>
         </form>
@@ -406,7 +391,6 @@
   </section>
 
 
-  
 
 
 
@@ -416,10 +400,11 @@
 
 
 
+  <
 
-<?php
-include "footer.php"
-?>
+  <?php
+  include "footer.php"
+    ?>
 
 
   <!-- Optional JavaScript -->
@@ -434,5 +419,6 @@ include "footer.php"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
 </body>
+
 
 </html>

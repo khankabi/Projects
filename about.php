@@ -85,7 +85,7 @@
 
 
     <!------------about us page-------------->
-    <section class="my-5" id="aboutus">
+    <section class="my-5 pb-5" id="aboutus">
         <div class="py-5">
             <h1 class="text-center">About us</h1>
         </div>
@@ -111,12 +111,6 @@
                         universal language that can brighten someone's day and leave a lasting impression. That's why
                         we're passionate about what we do, and we're committed to helping you achieve and maintain the
                         smile of your dreams.
-
-
-                        <br><br>
-                    <h5 class="text-right my-0"> By Mahatma Gandhi</h3>
-                        </p>
-                        <!-- <a href="about.php" class="btn btn-info"> wanna know more ?</a> -->
                 </div>
     </section>
 
