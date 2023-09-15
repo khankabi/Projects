@@ -1,0 +1,26 @@
+* Ladies and gentlemen, distinguished guests, and valued visitors,
+
+It is with great pleasure that I welcome you all to my website presentation today, where i will introduce you to my esteemed dental clinic project. i am honored that you've chosen to spend your valuable time with us to learn more about my website's services and commitment to your oral well-being.
+
+our dental clinic is not just a place where we treat dental issues; it's a haven of care, compassion, and cutting-edge dentistry. Today, I'd like to take you on a journey through our dental clinic , sharing our philosophy, services, and the dedicated doctors team behind it all.
+
+*as my greeting page i included this beatyfull image slider to greet our users .
+ i mentioned some of our non-functional services as you can see on screen.
+
+
+ * here are some major services that my clinic provide to our patients
+theeth grinding solutions
+theeth cleaning and hygine
+emergency dental care
+dental technology
+customized treatment plants
+insurance and payment options
+
+* after that i also included some of pictures of clinic and qualified doctors
+* then i mentioned one beautifull thought by mahatma gandhiji
+   with that here is one button that redirects users to our about us page
+in about us page list our qualified doctors 
+
+
+* In conclusion, our dental clinic is more than just a place where we fix teeth; it's where we create confident smiles, restore health, and build lasting relationships with our patients. Your oral health is our top priority, and we are honored to be your partners in achieving and maintaining it.
+Thank you for joining us today to learn more about our dental clinic. We invite you to explore our website further for detailed information on our services, meet our team, and schedule your next appointment. If you have any questions or would like to get in touch, please don't hesitate to reach out. We look forward to welcoming you to our clinic and being a part of your journey towards a healthier, more radiant smile.
