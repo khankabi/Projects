@@ -76,7 +76,7 @@
         </div>
         <div class="d-flex justify-content-around container">
             <p class="mt-5 m-0 ">
-                &copy; Copyright 2023, ii_am_shaikh_ii Corporation</p>
+                &copy; Copyright 2023, ii_am_shaikh_ii Corporation credit goes to Shah Abuzar</button></p>
             <button onclick="myFunction()"><img src="images\gallery\icons/icons8-night-mode-48.png" alt=""></button>
         </div>
         </div>

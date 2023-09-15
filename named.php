@@ -8,7 +8,7 @@
     <style>
         .cont {
             display: inline-block;
-            font-size: 2px;
+            font-size: 18px;
             font-family: 'Ubuntu', sans-serif;
             margin-top: 0.5rem;
         }

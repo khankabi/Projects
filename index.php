@@ -31,9 +31,10 @@
     <a class="navbar-brand my-0 py-0" style="font-family: 'Ubuntu', sans-serif;" href="index.php">
       <img src="images/LOGO.webp" width="45" height="38" class="d-inline-block align-top" alt="here is my logo">
     </a><br>
-    <span>      
+    <span>
       <?php
-      include "named.php"?>
+      include "named.php"
+        ?>
     </span>
     <!-- <a class="navbar-brand" href="#">DCMS</a> -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -91,7 +92,7 @@
     </a>
   </div>
   <!-- cards -->
-  <section class="my-5 pd-5" id="services">
+  <section class="my-5 pd-5 " id="services">
     <div class="py-5">
       <h1 class="text-center" style="font-family: 'Ubuntu', sans-serif;">Our services</h1>
     </div>
