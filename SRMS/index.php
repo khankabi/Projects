@@ -41,7 +41,7 @@ include('includes/config.php');
                     <div class="col-lg-6">
                         <h2>Notice Board</h2>
                         <hr color="#000" />
-                        <marquee direction="up"  onmouseover="this.stop();" onmouseout="this.start();">
+                        <marquee direction="up" scrollamount="3"   onmouseover="this.stop();" onmouseout="this.start();">
                    <ul>
  <?php $sql = "SELECT * from tblnotice";
 $query = $dbh->prepare($sql);
@@ -66,7 +66,7 @@ foreach($results as $result)
 
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Student Result Management System <?php echo date('Y');?></p></div>
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; YEWS National Senior Collage <?php echo date('Y');?></p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
