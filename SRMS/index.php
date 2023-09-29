@@ -42,7 +42,7 @@ include('includes/config.php');
         </div>
     </nav>
     <!-- Header - set the background image for the header in the line below-->
-    <header class="py-5 bg-image-full" style="background-image: url('images/landing img .jpg')">
+    <header class="py-5 bg-image-full" style="background-image: url('images/landing img.jpg')">
 
     </header>
     <!-- Content section-->
