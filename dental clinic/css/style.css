@@ -60,7 +60,7 @@
 
   
 
-  /* .login-card{
+  .login-card{
     margin:auto !important;
     margin-top: auto !important;
     padding: 20px !important;
@@ -69,5 +69,5 @@
     width: 90% !important;
     position: relative !important;
     margin-top: -46px !important;
-    background-color: #fa0808 !important;
-  }  */
+    /* background-color: #fa0808 !important; */
+  } 

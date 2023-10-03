@@ -261,7 +261,7 @@
 
 
   <!-- login panel -->
-  <!-- <section id="login" class="container-fluid  text-center py-5 pb-5">
+ <section id="login" class="container-fluid  text-center py-5 pb-5">
     <div class="container-fluid">
       <div class="text-center">
         <h2 class="text-center pr-5 pb-5" style="font-family: 'Ubuntu', sans-serif;">Login</h2>
@@ -314,7 +314,7 @@
         </div>
       </div>
     </div>
-  </section> -->
+  </section> 
 
 
 
