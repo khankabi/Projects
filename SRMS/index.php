@@ -28,7 +28,7 @@ include('includes/config.php');
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
         <div class="container">
             <a class="navbar-brand" href="index.php">
-                <img src="images/nav-logo rs.png" alt=""> YEWS National Senior Collage</a>
+                <img src="images/nav-logo rs.png"  > YEWS National Senior Collage</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -37,12 +37,13 @@ include('includes/config.php');
                     <li class="nav-item" ><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
                     <li class="nav-item"><a class="nav-link active" href="find-result.php">Students</a></li>
                     <li class="nav-item"><a class="nav-link active" href="admin-login.php">Admin</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="ffeedback_form.php">Feedback</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- Header - set the background image for the header in the line below-->
-    <header class="py-5 bg-image-full" style="background-image: url('images/landing img.jpg')">
+    <header class="py-5 bg-image-full" style="background-image: url('images/background-image.jpg')">
 
     
 </header>
@@ -54,11 +55,10 @@ include('includes/config.php');
       </div>
       <div class="col-sm-12">
         <div class="row ">
-          <div class="col-sm-6">
+          <!-- first card -->
+          <div class="col-sm-4">
             <div class=" mr-5">
-
-              <img src="images/background-image.jpg " class="img-fluid" alt=" student or normal use">
-
+              <img src="images/login.png " class="img-fluid" alt=" student or normal use">
               <div class="border border-secondary login-card"
                 style="margin: auto;
                     margin-top: auto;padding: 20px;z-index: 99;width: 90%;position: relative;margin-top: -46px;background-color: #FFF;">
@@ -69,9 +69,10 @@ include('includes/config.php');
               </div>
             </div>
           </div>
-          <div class="col-sm-6 ">
+          <!-- second card -->
+          <div class="col-sm-4 ">
             <div class="mr-5">
-              <img src="images/background-image.jpg" class="img-fluid" alt="doctor login">
+              <img src="images/login.png" class="img-fluid" alt="doctor login">
               <div class="border border-secondary login-card"
                 style="margin: auto;
                     margin-top: auto;padding: 20px;z-index: 99;width: 90%;position: relative;margin-top: -46px;background-color: #FFF;">
@@ -82,21 +83,20 @@ include('includes/config.php');
               </div>
             </div>
           </div>
-
-          <!-- <div class="col-sm-4">
+          <!-- feedback form -->
+          <div class="col-sm-4 ">
             <div class="mr-5">
-              <img src="images/background-image.jpg" class="img-fluid" alt="admin login">
-
-              <div class="border border-secondary"
+              <img src="images/feedback.png" class="img-fluid" alt="doctor login">
+              <div class="border border-secondary login-card"
                 style="margin: auto;
-                        margin-top: auto;padding: 20px;z-index: 99;width: 90%;position: relative;margin-top: -46px;background-color: #FFF;">
-                <h5>Admin Login</h5>
-                <a href="login/admin.php" target="_blank">
+                    margin-top: auto;padding: 20px;z-index: 99;width: 90%;position: relative;margin-top: -46px;background-color: #FFF;">
+                <h5>Feedback</h5>
+                <a href="feedback_form.php" >
                   <button class="btn btn-info btn-sm">Click Here</button>
                 </a>
               </div>
             </div>
-          </div> -->
+          </div>
         </div>
       </div>
     </div>
@@ -142,6 +142,7 @@ include('includes/config.php');
                 <?php echo date('Y'); ?>
             </p>
         </div>
+
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
