@@ -37,15 +37,13 @@ include('includes/config.php');
                     <li class="nav-item" ><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
                     <li class="nav-item"><a class="nav-link active" href="find-result.php">Students</a></li>
                     <li class="nav-item"><a class="nav-link active" href="admin-login.php">Admin</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="ffeedback_form.php">Feedback</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="feedback_form.php">Feedback</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- Header - set the background image for the header in the line below-->
-    <header class="py-5 bg-image-full" style="background-image: url('images/background-image.jpg')">
-
-    
+    <header class="py-5 bg-image-full" style="background-image: url('images/background-image.jpg')">  
 </header>
 <!-- Login panel -->
 <section id="login" class="container-fluid  text-center py-5 pb-5">

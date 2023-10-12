@@ -31,7 +31,7 @@
 
 
     //inserting into table
-    $query="INSERT INTO `userinfo`(`username`, `email`, `mobile`, `comment`) VALUES ('$username','$email','$mobile','$comment')";
+    $query="INSERT INTO `tblfeedback`(`username`, `email`, `mobile`, `comment`) VALUES ('$username','$email','$mobile','$comment')";
     echo $query;
     mysqli_query($conn,$query);
     header('location:index.php');
